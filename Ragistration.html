@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Admin Account</title>
+  <link rel="stylesheet" href="Ragistration.css">
+</head>
+<body>
+  <form id="adminForm">
+    <h2>Create Admin Account</h2>
+
+    <!-- First Name -->
+    <input type="text" id="firstName" placeholder="First Name" required>
+
+    <!-- Last Name -->
+    <input type="text" id="lastName" placeholder="Last Name" required>
+
+    <!-- Gender -->
+    <div>
+      Gender:
+      <label><input type="radio" name="gender" value="Male" required>Male</label>
+      <label><input type="radio" name="gender" value="Female">Female</label>
+    </div>
+
+    <!-- Phone Number -->
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+
+    <!-- Email -->
+    <input type="email" id="email" placeholder="Email Address" required>
+
+    <!-- Password -->
+    <input type="password" id="password" placeholder="Password" required>
+
+    <!-- Confirm Password -->
+    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+
+    <!-- Terms and Conditions -->
+    <label>
+      <input type="checkbox" id="terms" required> I agree to Terms and Conditions
+    </label>
+
+    <!-- Dropdowns -->
+    <select id="country" required>
+      <option value="">Select Country</option>
+      <option value="India">India</option><option value="India">India</option><option value="India">India</option><option value="India">India</option><option value="India">India</option><option value="India">India</option>
+    </select>
+
+    <select id="state" required>
+      <option value="">Select State</option>
+      <option value="MH">Maharashtra</option>
+    </select>
+
+    <select id="city" required>
+      <option value="">Select City</option>
+      <option value="Pune">Pune</option>
+    </select>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <script src="Ragistratioion.js"></script>
+</body>
+</html>
