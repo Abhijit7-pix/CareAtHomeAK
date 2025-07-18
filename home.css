@@ -26,6 +26,24 @@ body{
     background-color: #ddd;
     color: black;
 }
+/* left sidebar */
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+
+  .sidebar {
+    width: 250px;
+    background-color: #2f7bc7;
+    color: rgb(228, 22, 22);
+    padding: 20px;
+  }
+
+  .sidebar h2 {
+    margin-top: 0;
+  }
+
+
 /* main body row */
 .column {
   float: left;
@@ -34,13 +52,16 @@ body{
 
 .mainRow{
     border: 2px solid salmon;
+   display: flex;
+   gap: 20px;
 }
-.d1{
-    width: 50%;
-}
-.d2{
-    width: 50%;
-}
+  .d1, .d2 {
+    flex: 1; /* Makes both divs take equal width */
+    border: 1px solid #ccc; /* Optional: Just for visual separation */
+    padding: 10px;
+margin-top: 40px;
+padding-top: 70px;
+  }
 /* Bottombar */ 
 #bottombar{
 border: solid black;
@@ -48,4 +69,11 @@ background-color: blue;
 align-items: center;
 text-align: center;
 margin-bottom: 0%;
+}
+.test{
+    margin-top: 20px;
+    padding-top: 40px;
+    border: solid black;
+    background-color: aqua;
+    width: 100%;
 }
