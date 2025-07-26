@@ -3,15 +3,37 @@ body{
     background-color: rgb(235, 229, 229);
     margin: 0;
 }
-/* header  */
-.header{
-    align-items: center;
-    border: 2px solid black;
-    text-align: center;
-    padding: auto;
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5; /* optional background */
+}
+
+.header a {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: #333; /* change color as needed */
+}
+
+.circle-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.circle-logo:hover {
+  transform: scale(2); /* makes logo slightly larger on hover */
 }
 /* topnave */
 .topnav{
+  outline: yellow 15px;
     overflow: auto;
     background-color: #333;
 }
@@ -29,6 +51,7 @@ body{
 /* left sidebar */
 .container {
     display: flex;
+    outline: #333 20px;
     height: 100vh; /* Full viewport height */
   }
 
@@ -71,32 +94,12 @@ text-align: center;
 margin-bottom: 0%;
 }
 .test{
-    margin-top: 20px;
     padding-top: 40px;
-    border: solid black;
+    border: dotted black;
     background-color: aqua;
-    width: 100%;
+  
    
 }
-.test.h1{
- justify-content:right;
-}
-/* .circle-logo{
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  transition:transform 0.3s ease;
-  cursor:pointer;
-}
-.circle-logo.enlarged{
-  transform: scale(3);
-  z-index: 10;
-} */
- .circle-logo {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.circle-logo.visible {
-    opacity: 1;
+h1{
+ text-align:center;
 }
