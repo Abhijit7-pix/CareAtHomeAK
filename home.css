@@ -39,6 +39,37 @@ body{
   outline: yellow 15px;
     overflow: auto;
     background-color: #333;
+    justify-content: center;
+}
+#Login_Button{
+  padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease;
+  /* justify-content: center;
+  float: left;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  background-color: #ccc;
+  text-align: center; */
+}
+#Login_Button:hover{
+  background-color: coral;
+}
+#SigunupButton{
+  margin-left: 20px;
+  background-color: #4ad150;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+#SigunupButton:hover{
+  background-color: coral;
 }
 .topnav a{
     float: right;
