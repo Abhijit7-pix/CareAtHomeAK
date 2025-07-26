@@ -42,6 +42,7 @@ body{
     justify-content: center;
 }
 #Login_Button{
+  float: right;
   padding: 10px 20px;
       background-color: #4CAF50;
       color: white;
@@ -63,6 +64,7 @@ body{
   background-color: coral;
 }
 #SigunupButton{
+  float: right;
   margin-left: 20px;
   background-color: #4ad150;
   padding: 10px 20px;
@@ -72,7 +74,7 @@ body{
   background-color: coral;
 }
 .topnav a{
-    float: right;
+    float: left;
     padding: 14px 16px;
     display: block;
     color: red;
