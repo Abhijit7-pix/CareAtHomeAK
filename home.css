@@ -22,6 +22,7 @@ body{
 .circle-logo {
   width: 60px;
   height: 60px;
+  margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
@@ -29,6 +30,8 @@ body{
 }
 
 .circle-logo:hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
   transform: scale(2); /* makes logo slightly larger on hover */
 }
 /* topnave */
